@@ -1,0 +1,4 @@
+{% extends "pages/base.html" %} {% block content %} {{post.title}}
+
+<p>{{post.body|safe|linebreaks}}</p>
+{% endblock %}
